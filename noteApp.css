@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #000000c4;
+    padding: 23px;
+
+}
+#inputbox{
+    border: 1px solid black ;
+    padding: 23px;
+    
+   
+
+}
+input, textarea{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-top: 7px;
+    color: white;
+   
+
+}
+button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 12px;
+    
+   
+     
+}
+.note{
+    background: transparent;
+    border: 1px solid white;
+    /* background-color: red; */
+    width: 300px;
+    padding: 12px;
+    color: rgb(251, 239, 239);
+    margin: 12px;
+    /* overflow-wrap: break-word; */
+
+}
+
+#notes,#deleted-notes , #archive-notes{
+    padding: 23px;
+    display: flex;
+    /* justify-content:space-around; */
+    flex-wrap:wrap;
+
+
+}
+.deleteid{
+    float: right;
+}
+/* #deleted-notes{
+    padding: 23px;
+    display: flex;
+     justify-content:space-around; 
+    flex-wrap:wrap;
+}
+#archive-notes{
+    padding: 23px;
+    display: flex;
+     justify-content:space-around; 
+    flex-wrap:wrap;
+
+} */
